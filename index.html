@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- ==========================================
+         01. BASIC HTML DOCUMENT SETTINGS
+    =========================================== -->
+
+  <!-- Defines character encoding for the website -->
+  <meta charset="UTF-8">
+
+  <!-- Makes the website responsive on all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO description for search engines -->
+  <meta name="description"
+    content="Fresh, organic food grown with care. Discover seasonal produce from Verdant Harvest.">
+
+  <!-- Website title displayed in browser tab -->
+  <title>Verdant Harvest — Naturally Better</title>
+
+
+  <!-- ==========================================
+         02. GOOGLE FONTS CONNECTION
+    =========================================== -->
+
+  <!-- Preconnect to Google Fonts for faster loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Import DM Sans and Playfair Display fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- ==========================================
+         03. BOOTSTRAP CSS FRAMEWORK
+    =========================================== -->
+
+  <!-- Bootstrap CSS provides responsive grid and components -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- ==========================================
+         04. BOOTSTRAP ICONS
+    =========================================== -->
+
+  <!-- Import Bootstrap Icons for website icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+
+  <!-- ==========================================
+         05. CUSTOM CSS FILE
+    =========================================== -->
+
+  <!-- Connect external stylesheet for custom website design -->
+  <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+
+<body>
+
+
+  <!-- ==========================================
+         06. ANNOUNCEMENT BAR SECTION
+    =========================================== -->
+
+  <!-- Displays a promotional message at the top of the website -->
+  <div class="announcement">
+
+    <!-- Small decorative announcement indicator -->
+    <span class="announcement-dot"></span>
+
+    <!-- Main promotional message -->
+    Fresh from the farm, delivered to your door
+
+    <!-- Decorative separator icon -->
+    <span class="announcement-sep">✦</span>
+
+    <!-- Free delivery offer -->
+    Free delivery over $45
+
+  </div>
+
+
+
+  <!-- ==========================================
+         07. NAVIGATION BAR SECTION
+    =========================================== -->
+
+  <!-- Bootstrap responsive navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light site-nav sticky-top">
+
+    <div class="container">
+
+      <!-- Website Logo and Brand Name -->
+      <a class="navbar-brand brand" href="#">
+
+        <!-- Brand icon -->
+        <span class="brand-mark">
+          <i class="bi bi-flower1"></i>
+        </span>
+
+        <!-- Brand text -->
+        <span>
+          verdant
+          <span class="brand-light">harvest</span>
+
+          <!-- Brand tagline -->
+          <small>GROWN WITH GOODNESS</small>
+        </span>
+
+      </a>
+
+
+      <!-- Mobile Navigation Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-label="Toggle navigation">
+
+        <!-- Bootstrap hamburger icon -->
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+
+      <!-- Navigation Menu Items -->
+      <div class="collapse navbar-collapse" id="mainNav">
+
+        <ul class="navbar-nav mx-auto align-items-lg-center">
+
+          <!-- Home Navigation Link -->
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <!-- Our Story Navigation Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="#story">Our story</a>
+          </li>
+
+          <!-- Products Navigation Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Shop produce</a>
+          </li>
+
+          <!-- Promise Navigation Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="#promise">Our promise</a>
+          </li>
+
+        </ul>
+
+
+        <!-- Navigation Call-to-Action Button -->
+        <a href="#products" class="nav-cta">
+          Shop the harvest
+          <i class="bi bi-arrow-up-right"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+  <!-- ==========================================
+         08. MAIN CONTENT START
+    =========================================== -->
+
+  <!-- Main element contains all primary website sections -->
+  <main>
+
+
+    <!-- ==========================================
+             09. HERO / BANNER SECTION
+        =========================================== -->
+
+    <!-- Main landing section containing heading, description and image -->
+    <section class="hero-section" id="home">
+
+      <!-- Decorative background glow effects -->
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+
+      <div class="container hero-content">
+
+        <div class="row align-items-center gy-5">
+
+
+          <!-- HERO LEFT COLUMN: TEXT CONTENT -->
+          <div class="col-lg-6">
+
+            <!-- Small introductory heading -->
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              GOOD FOOD. GOOD MOOD.
+            </div>
+
+
+            <!-- Main website heading -->
+            <h1>
+              Eat closer
+              <br>
+              to <em>nature.</em>
+            </h1>
+
+
+            <!-- Hero section description -->
+            <p class="hero-copy">
+              Honest, vibrant organic food grown with care and picked at its peak.
+              Because the best things in life start with the soil.
+            </p>
+
+
+            <!-- Hero section action buttons -->
+            <div class="hero-actions">
+
+              <!-- Primary button: Explore products -->
+              <a class="btn btn-organic" href="#products">
+                Explore fresh picks
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+
+              <!-- Secondary button: Navigate to story -->
+              <a class="play-link" href="#story">
+
+                <!-- Play icon -->
+                <span class="play-icon">
+                  <i class="bi bi-play-fill"></i>
+                </span>
+
+                The way we grow
+
+              </a>
+
+            </div>
+
+
+            <!-- Customer Rating and Social Proof Section -->
+            <div class="hero-proof">
+
+
+              <!-- Customer Profile Images -->
+              <div class="avatar-stack">
+
+                <!-- First customer image -->
+                <img src="https://images.unsplash.com/photo-1534528737758-b0e5b5f8b2b9?auto=format&fit=crop&w=100&q=80"
+                  alt="Happy customer">
+
+                <!-- Second customer image -->
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80"
+                  alt="Happy customer">
+
+                <!-- Third customer image -->
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80"
+                  alt="Happy customer">
+
+              </div>
+
+
+              <!-- Customer Rating Information -->
+              <div>
+
+                <!-- Star rating -->
+                <div class="proof-stars">
+                  ★★★★★
+                  <span>4.9/5</span>
+                </div>
+
+                <!-- Customer count -->
+                <small>Loved by 12,000+ happy homes</small>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- HERO RIGHT COLUMN: IMAGE CONTENT -->
+          <div class="col-lg-6">
+
+            <div class="hero-visual">
+
+
+              <!-- Main Hero Image -->
+              <div class="hero-photo-wrap">
+
+                <img class="hero-photo"
+                  src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=90"
+                  alt="A fresh bowl of organic greens and vegetables">
+
+              </div>
+
+
+              <!-- Floating Card: Fresh Harvest -->
+              <div class="floating-card harvest-card">
+
+                <!-- Sun icon -->
+                <span class="mini-icon">
+                  <i class="bi bi-sun"></i>
+                </span>
+
+                <!-- Harvest information -->
+                <div>
+                  <strong>Picked today</strong>
+                  <small>Freshness you can taste</small>
+                </div>
+
+              </div>
+
+
+              <!-- Floating Card: Organic Products -->
+              <div class="floating-card organic-card">
+
+                <!-- Organic leaf icon -->
+                <span class="organic-seal">
+                  <i class="bi bi-leaf"></i>
+                </span>
+
+                <!-- Organic information -->
+                <div>
+                  <strong>100% organic</strong>
+                  <small>Nothing artificial. Ever.</small>
+                </div>
+
+              </div>
+
+
+              <!-- Decorative Hero Sticker -->
+              <div class="hero-sticker">
+
+                <span>FRESH</span>
+
+                <strong>
+                  from
+                  <br>
+                  the earth
+                </strong>
+
+                <i class="bi bi-flower3"></i>
+
+              </div>
+
+
+              <!-- Decorative SVG Animation / Design -->
+              <svg class="hero-squiggle" viewBox="0 0 140 65" fill="none" aria-hidden="true">
+
+                <path d="M3 48C26 8 43 7 55 31C70 61 87 54 97 24C106 -1 123 5 137 17" stroke="#E7B943" stroke-width="3"
+                  stroke-linecap="round" stroke-dasharray="1 8" />
+
+              </svg>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- Hero Bottom: Website Trust Features -->
+        <div class="hero-bottom">
+
+          <!-- Organic certification feature -->
+          <span>
+            <i class="bi bi-check-circle-fill"></i>
+            Certified organic
+          </span>
+
+          <!-- Farmer sourcing feature -->
+          <span>
+            <i class="bi bi-check-circle-fill"></i>
+            Farmer-first sourcing
+          </span>
+
+          <!-- Packaging feature -->
+          <span>
+            <i class="bi bi-check-circle-fill"></i>
+            Plastic-light packaging
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+             10. TICKER / MOVING TEXT SECTION
+        =========================================== -->
+
+    <!-- Displays animated scrolling brand messages -->
+    <section class="ticker-strip" aria-label="Our values">
+
+      <!-- Ticker track contains repeated messages for continuous movement -->
+      <div class="ticker-track">
+
+        <span>ROOTED IN NATURE <i>✳</i></span>
+
+        <span>FRESH BY NATURE <i>✳</i></span>
+
+        <span>GOODNESS IN EVERY BITE <i>✳</i></span>
+
+        <span>ROOTED IN NATURE <i>✳</i></span>
+
+        <span>FRESH BY NATURE <i>✳</i></span>
+
+        <span>GOODNESS IN EVERY BITE <i>✳</i></span>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+             11. PRODUCTS SECTION
+        =========================================== -->
+
+    <!-- Displays the organic products available in the shop -->
+    <section class="products-section section-pad" id="products">
+
+      <div class="container">
+
+
+        <!-- Products Section Heading -->
+        <div class="section-heading text-center reveal">
+
+          <!-- Small section title -->
+          <div class="eyebrow justify-content-center">
+            <span class="eyebrow-line"></span>
+            STRAIGHT FROM THE SOIL
+            <span class="eyebrow-line"></span>
+          </div>
+
+          <!-- Main products heading -->
+          <h2>
+            A little <em>greener.</em>
+            <br>
+            A whole lot tastier.
+          </h2>
+
+          <!-- Section description -->
+          <p>
+            Meet your new fridge favourites — grown naturally, delivered joyfully.
+          </p>
+
+        </div>
+
+
+
+        <!-- Product Cards Bootstrap Grid -->
+        <div class="row g-4 product-grid">
+
+
+          <!-- PRODUCT CARD 01: GARDEN GREENS -->
+          <div class="col-md-4 reveal">
+
+            <article class="product-card">
+
+
+              <!-- Product Image Container -->
+              <div class="product-image image-leaves">
+
+                <!-- Product Bestseller Badge -->
+                <span class="product-tag">BESTSELLER</span>
+
+
+                <!-- Add to Wishlist Button -->
+                <button class="wish-btn" aria-label="Add Garden Greens to favourites">
+
+                  <i class="bi bi-heart"></i>
+
+                </button>
+
+
+                <!-- Product Image -->
+                <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=85"
+                  alt="Fresh green leafy vegetables">
+
+              </div>
+
+
+              <!-- Product Information -->
+              <div class="product-info">
+
+                <!-- Product Category -->
+                <div class="product-category">
+                  LEAFY GREENS
+                </div>
+
+                <!-- Product Name -->
+                <h3>Garden Greens Box</h3>
+
+                <!-- Product Description -->
+                <p>
+                  A crisp, colourful mix of seasonal greens.
+                </p>
+
+
+                <!-- Product Price and Add-to-Cart Button -->
+                <div class="product-bottom">
+
+                  <!-- Product Price -->
+                  <div class="price">
+                    $12.00
+                    <span>/ box</span>
+                  </div>
+
+
+                  <!-- Add Product to Cart -->
+                  <button class="add-btn" data-product="Garden Greens Box" aria-label="Add Garden Greens Box to cart">
+
+                    <i class="bi bi-plus-lg"></i>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+
+          <!-- PRODUCT CARD 02: SUNSHINE CITRUS -->
+          <div class="col-md-4 reveal reveal-delay">
+
+            <article class="product-card featured-product">
+
+
+              <!-- Product Image Container -->
+              <div class="product-image image-fruit">
+
+                <!-- Farm Favourite Badge -->
+                <span class="product-tag yellow-tag">
+                  FARM FAVOURITE
+                </span>
+
+
+                <!-- Add to Wishlist Button -->
+                <button class="wish-btn" aria-label="Add Sunshine Citrus to favourites">
+
+                  <i class="bi bi-heart"></i>
+
+                </button>
+
+
+                <!-- Product Image -->
+                <img src="https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=700&q=85"
+                  alt="Fresh oranges and citrus fruit">
+
+              </div>
+
+
+              <!-- Product Information -->
+              <div class="product-info">
+
+                <!-- Product Category -->
+                <div class="product-category">
+                  SEASONAL FRUIT
+                </div>
+
+                <!-- Product Name -->
+                <h3>Sunshine Citrus</h3>
+
+                <!-- Product Description -->
+                <p>
+                  Sweet, sun-kissed citrus bursting with flavour.
+                </p>
+
+
+                <!-- Product Price and Add-to-Cart Button -->
+                <div class="product-bottom">
+
+                  <!-- Product Price -->
+                  <div class="price">
+                    $9.50
+                    <span>/ bag</span>
+                  </div>
+
+
+                  <!-- Add Product to Cart -->
+                  <button class="add-btn" data-product="Sunshine Citrus" aria-label="Add Sunshine Citrus to cart">
+
+                    <i class="bi bi-plus-lg"></i>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+
+          <!-- PRODUCT CARD 03: ROOT GOODNESS -->
+          <div class="col-md-4 reveal reveal-delay-2">
+
+            <article class="product-card">
+
+
+              <!-- Product Image Container -->
+              <div class="product-image image-roots">
+
+                <!-- Product Badge -->
+                <span class="product-tag">
+                  SOIL TO SOUL
+                </span>
+
+
+                <!-- Add to Wishlist Button -->
+                <button class="wish-btn" aria-label="Add Root Goodness to favourites">
+
+                  <i class="bi bi-heart"></i>
+
+                </button>
+
+
+                <!-- Product Image -->
+                <img src="https://images.unsplash.com/photo-1445282768818-728615cc910a?auto=format&fit=crop&w=700&q=85"
+                  alt="Fresh carrots and root vegetables">
+
+              </div>
+
+
+              <!-- Product Information -->
+              <div class="product-info">
+
+                <!-- Product Category -->
+                <div class="product-category">
+                  ROOT VEGETABLES
+                </div>
+
+                <!-- Product Name -->
+                <h3>Root Goodness Pack</h3>
+
+                <!-- Product Description -->
+                <p>
+                  Earthy, nourishing roots for everyday cooking.
+                </p>
+
+
+                <!-- Product Price and Add-to-Cart Button -->
+                <div class="product-bottom">
+
+                  <!-- Product Price -->
+                  <div class="price">
+                    $10.00
+                    <span>/ pack</span>
+                  </div>
+
+
+                  <!-- Add Product to Cart -->
+                  <button class="add-btn" data-product="Root Goodness Pack" aria-label="Add Root Goodness Pack to cart">
+
+                    <i class="bi bi-plus-lg"></i>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- Products Bottom Navigation Link -->
+        <div class="text-center mt-5">
+
+          <a href="#newsletter" class="text-link">
+            Good things are in season
+            <i class="bi bi-arrow-right"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+             12. OUR STORY SECTION
+        =========================================== -->
+
+    <!-- Introduces the brand, its background and farming philosophy -->
+    <section class="story-section section-pad" id="story">
+
+      <div class="container">
+
+        <div class="row align-items-center g-5">
+
+
+          <!-- STORY LEFT COLUMN: FARM IMAGE -->
+          <div class="col-lg-6 reveal">
+
+            <div class="story-visual">
+
+
+              <!-- Main Farm Background Image -->
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1100&q=85"
+                alt="Sunlight over a lush green farm field">
+
+
+              <!-- Floating Story Information Card -->
+              <div class="story-note">
+
+                <!-- Heart Icon -->
+                <i class="bi bi-heart-fill"></i>
+
+                <!-- Story Message -->
+                <span>
+                  <strong>Small farms.</strong>
+                  <br>
+                  Big-hearted goodness.
+                </span>
+
+              </div>
+
+
+              <!-- Story Number Badge -->
+              <div class="story-number">
+
+                <strong>01</strong>
+
+                <span>Our roots</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- STORY RIGHT COLUMN: TEXT CONTENT -->
+          <div class="col-lg-6 reveal reveal-delay">
+
+
+            <!-- Small Story Heading -->
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span>
+              A DIFFERENT KIND OF FOOD STORY
+            </div>
+
+
+            <!-- Main Story Heading -->
+            <h2>
+              Goodness grows
+              <br>
+              when we <em>care.</em>
+            </h2>
+
+
+            <!-- First Story Paragraph -->
+            <p class="story-copy">
+              We believe food should do more than fill a plate.
+              It should nourish your body, respect the earth,
+              and support the hands that grow it.
+            </p>
+
+
+            <!-- Second Story Paragraph -->
+            <p class="story-copy">
+              That’s why we work with small, thoughtful farms,
+              let the seasons lead, and keep our ingredients
+              beautifully simple. No shortcuts — just good food,
+              grown right.
+            </p>
+
+
+            <!-- Button to Our Promise Section -->
+            <a href="#promise" class="btn btn-outline-organic">
+              Get to know us
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+
+
+            <!-- Brand Signature Section -->
+            <div class="signature">
+
+              <!-- Brand Initial -->
+              <span class="signature-mark">v.</span>
+
+              <!-- Signature Text -->
+              <span>
+                <strong>With care, always.</strong>
+                <small>The Verdant Harvest team</small>
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+             13. OUR PROMISE SECTION
+        =========================================== -->
+
+    <!-- Displays the three main commitments of the brand -->
+    <section class="promise-section section-pad" id="promise">
+
+      <div class="container">
+
+
+        <!-- Promise Section Heading -->
+        <div class="section-heading text-center reveal">
+
+          <!-- Small Section Heading -->
+          <div class="eyebrow justify-content-center">
+            <span class="eyebrow-line"></span>
+            OUR LITTLE PROMISE
+            <span class="eyebrow-line"></span>
+          </div>
+
+          <!-- Main Promise Heading -->
+          <h2>
+            Better for you.
+            <br>
+            <em>Kinder to the planet.</em>
+          </h2>
+
+        </div>
+
+
+
+        <!-- Promise Cards Bootstrap Grid -->
+        <div class="row g-4 promise-grid">
+
+
+          <!-- PROMISE CARD 01: NATURAL GROWING -->
+          <div class="col-md-4 reveal">
+
+            <div class="promise-card">
+
+              <!-- Natural Growing Icon -->
+              <div class="promise-icon green-icon">
+                <i class="bi bi-flower2"></i>
+              </div>
+
+              <!-- Card Heading -->
+              <h3>Grown naturally</h3>
+
+              <!-- Card Description -->
+              <p>
+                Thoughtful growing practices that let nature
+                do what it does best.
+              </p>
+
+              <!-- Card Number -->
+              <span class="promise-number">01</span>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- PROMISE CARD 02: FRESH HARVEST -->
+          <div class="col-md-4 reveal reveal-delay">
+
+            <div class="promise-card">
+
+              <!-- Harvest Basket Icon -->
+              <div class="promise-icon yellow-icon">
+                <i class="bi bi-basket2"></i>
+              </div>
+
+              <!-- Card Heading -->
+              <h3>Picked at its peak</h3>
+
+              <!-- Card Description -->
+              <p>
+                Seasonal produce harvested when flavour
+                and freshness are at their best.
+              </p>
+
+              <!-- Card Number -->
+              <span class="promise-number">02</span>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- PROMISE CARD 03: ENVIRONMENTAL CARE -->
+          <div class="col-md-4 reveal reveal-delay-2">
+
+            <div class="promise-card">
+
+              <!-- Recycling Icon -->
+              <div class="promise-icon coral-icon">
+                <i class="bi bi-recycle"></i>
+              </div>
+
+              <!-- Card Heading -->
+              <h3>Less waste, more care</h3>
+
+              <!-- Card Description -->
+              <p>
+                Smarter packaging and a lighter footprint,
+                one delivery at a time.
+              </p>
+
+              <!-- Card Number -->
+              <span class="promise-number">03</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+             14. INSPIRATIONAL QUOTE SECTION
+        =========================================== -->
+
+    <!-- Displays a motivational quote about nature and healthy food -->
+    <section class="quote-section">
+
+      <div class="container">
+
+        <!-- Quote Content Wrapper -->
+        <div class="quote-inner reveal">
+
+
+          <!-- Decorative Opening Quote Mark -->
+          <span class="quote-mark">“</span>
+
+
+          <!-- Main Inspirational Quote -->
+          <blockquote>
+            When you eat well, you feel well.
+            When the earth is well, we all thrive.
+          </blockquote>
+
+
+          <!-- Quote Author / Brand Label -->
+          <div class="quote-author">
+
+            <span></span>
+
+            OUR WAY OF LIFE
+
+            <span></span>
+
+          </div>
+
+
+          <!-- Decorative Leaf Icon 01 -->
+          <div class="quote-leaf leaf-a">
+            <i class="bi bi-leaf"></i>
+          </div>
+
+
+          <!-- Decorative Flower Icon 02 -->
+          <div class="quote-leaf leaf-b">
+            <i class="bi bi-flower1"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+             15. NEWSLETTER SUBSCRIPTION SECTION
+        =========================================== -->
+
+    <!-- Allows visitors to subscribe using their email address -->
+    <section class="newsletter-section" id="newsletter">
+
+      <div class="container">
+
+        <!-- Newsletter Main Container -->
+        <div class="newsletter-box reveal">
+
+
+          <!-- Decorative Newsletter Flower -->
+          <div class="newsletter-decoration">
+            <i class="bi bi-flower3"></i>
+          </div>
+
+
+          <div class="row align-items-center g-4">
+
+
+            <!-- NEWSLETTER LEFT COLUMN: TEXT -->
+            <div class="col-lg-6">
+
+
+              <!-- Newsletter Small Heading -->
+              <div class="eyebrow">
+                <span class="eyebrow-line"></span>
+                A FRESH NOTE FROM US
+              </div>
+
+
+              <!-- Newsletter Main Heading -->
+              <h2>
+                Good things grow
+                <br>
+                in your <em>inbox.</em>
+              </h2>
+
+
+              <!-- Newsletter Description -->
+              <p>
+                Seasonal recipes, farm stories,
+                and first dibs on the good stuff.
+              </p>
+
+            </div>
+
+
+
+            <!-- NEWSLETTER RIGHT COLUMN: FORM -->
+            <div class="col-lg-6">
+
+
+              <!-- Newsletter Email Form -->
+              <form class="newsletter-form" id="newsletterForm">
+
+
+                <!-- Accessible Email Input Label -->
+                <label for="emailInput" class="visually-hidden">
+
+                  Your email address
+
+                </label>
+
+
+                <!-- Email Input and Submit Button Container -->
+                <div class="input-wrap">
+
+
+                  <!-- Email Icon -->
+                  <i class="bi bi-envelope"></i>
+
+
+                  <!-- Visitor Email Input -->
+                  <input id="emailInput" type="email" placeholder="Your email address" required>
+
+
+                  <!-- Newsletter Submit Button -->
+                  <button type="submit">
+
+                    Count me in
+
+                    <i class="bi bi-arrow-right"></i>
+
+                  </button>
+
+                </div>
+
+
+                <!-- Form Response Message -->
+                <small id="formMessage">
+                  By subscribing, you agree to receive
+                  our occasional good-news email.
+                </small>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         16. MAIN CONTENT END
+    =========================================== -->
+
+  </main>
+
+
+
+  <!-- ==========================================
+         17. FOOTER SECTION
+    =========================================== -->
+
+  <!-- Website footer contains brand information, navigation, social media and contact details -->
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="row gy-5">
+
+
+        <!-- FOOTER COLUMN 01: BRAND INFORMATION -->
+        <div class="col-lg-4">
+
+
+          <!-- Footer Website Logo -->
+          <a class="navbar-brand brand footer-brand" href="#">
+
+            <!-- Brand Icon -->
+            <span class="brand-mark">
+              <i class="bi bi-flower1"></i>
+            </span>
+            <!-- Brand Name -->
+            <span>
+              verdant
+              <span class="brand-light">harvest</span>
+
+              <small>GROWN WITH GOODNESS</small>
+            </span>
+
+          </a>
+
+
+          <!-- Footer Brand Description -->
+          <p class="footer-about">
+            A little closer to nature, a lot closer to feeling good.
+            Real food, grown with care.
+          </p>
+
+
+          <!-- Social Media Links -->
+          <div class="social-links">
+
+            <!-- Instagram Link -->
+            <a href="#" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+
+            <!-- Facebook Link -->
+            <a href="#" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+
+            <!-- Pinterest Link -->
+            <a href="#" aria-label="Pinterest">
+              <i class="bi bi-pinterest"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- FOOTER COLUMN 02: EXPLORE LINKS -->
+        <div class="col-6 col-lg-2 footer-links">
+
+          <!-- Column Heading -->
+          <h4>Explore</h4>
+
+          <!-- Home Link -->
+          <a href="#home">Home</a>
+
+          <!-- Story Link -->
+          <a href="#story">Our story</a>
+
+          <!-- Products Link -->
+          <a href="#products">Shop produce</a>
+
+          <!-- Promise Link -->
+          <a href="#promise">Our promise</a>
+
+        </div>
+
+
+
+        <!-- FOOTER COLUMN 03: INFORMATION LINKS -->
+        <div class="col-6 col-lg-2 footer-links">
+
+          <!-- Column Heading -->
+          <h4>Good to know</h4>
+
+          <!-- Standards Link -->
+          <a href="#promise">Our standards</a>
+
+          <!-- Farm Notes Link -->
+          <a href="#newsletter">Farm notes</a>
+
+          <!-- Seasonal Products Link -->
+          <a href="#products">Seasonal picks</a>
+
+          <!-- Contact Link -->
+          <a href="#newsletter">Contact us</a>
+
+        </div>
+
+
+
+        <!-- FOOTER COLUMN 04: CONTACT INFORMATION -->
+        <div class="col-lg-4 footer-contact">
+
+          <!-- Contact Column Heading -->
+          <h4>Let’s keep in touch</h4>
+
+
+          <!-- Email Address -->
+          <p>
+            <i class="bi bi-envelope"></i>
+            hello@verdant-harvest.example
+          </p>
+
+
+          <!-- Location / Farm Information -->
+          <p>
+            <i class="bi bi-geo-alt"></i>
+            From our partner farms to your table
+          </p>
+
+
+          <!-- Contact Call-to-Action Link -->
+          <a class="footer-mail" href="#newsletter">
+            Say hello
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- FOOTER BOTTOM: COPYRIGHT AND NAVIGATION -->
+      <div class="footer-bottom">
+
+
+        <!-- Dynamic Copyright Year -->
+        <span>
+          ©
+          <span id="year"></span>
+          Verdant Harvest. Made with care.
+        </span>
+
+
+        <!-- Footer Brand Slogan -->
+        <span>GOOD FOOD, GROWN GOOD.</span>
+
+
+        <!-- Back to Top Link -->
+        <a href="#home">Back to top ↑</a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ==========================================
+         18. CART NOTIFICATION / TOAST SECTION
+    =========================================== -->
+
+  <!-- Shows a notification when a visitor adds a product to the cart -->
+  <div class="cart-toast" id="cartToast" role="status" aria-live="polite">
+
+
+    <!-- Shopping Basket Icon -->
+    <i class="bi bi-basket2-fill"></i>
+
+
+    <!-- Dynamic Cart Notification Text -->
+    <span id="cartToastText">
+      Added to your basket
+    </span>
+
+
+    <!-- Close Notification Button -->
+    <button id="closeToast" aria-label="Close notification">
+
+      <i class="bi bi-x-lg"></i>
+
+    </button>
+
+  </div>
+
+
+
+  <!-- ==========================================
+         19. BOOTSTRAP JAVASCRIPT CONNECTION
+    =========================================== -->
+
+  <!-- Bootstrap JavaScript enables navbar, dropdowns and other interactive components -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!-- ==========================================
+         20. CUSTOM JAVASCRIPT CONNECTION
+    =========================================== -->
+
+  <!-- Loads custom website functionality, animations, forms and cart interactions -->
+  <script src="assets/script.js"></script>
+
+
+  <!-- ==========================================
+     21. BODY AND HTML DOCUMENT END
+=========================================== -->
+
+</body>
+
+</html>
